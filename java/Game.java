@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -125,7 +124,7 @@ public class Game {
   }
 
   /** Return true if it is a draw (no more empty cell) */
-  // TODO: maybe there is an easeir way to check this
+ 
   public static boolean tie() {
     return board[0] != "0" &&
            board[1] != "1" &&
